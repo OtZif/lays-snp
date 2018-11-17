@@ -1,13 +1,17 @@
 window.onload = function(){
-			var elevent = document.getElementById('ela');
-			element.classList.remove("hide_page");
-			element.classList.add("show_page");
+			
 
 
-		// 	setTimeout(function(){
+
 			
+
+
+		
+			var elem = document.getElementById('element');
+			elem.classList.remove("hide_page");
+			elem.classList.add("show_page");
 			
-		// },200)
+		
 };
 // document.addEventListener("DOMContentLoaded", ready);
 
