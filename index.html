@@ -4,11 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 	<title>Lay's Yellow Trend</title>
+
 	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/main.js" ></script>
 </head>
 <body>
 	<section class="wrapper">
+
 		<!-- ------------ NAV ------------- -->
+
 		<nav>
 			<div class="nav__container nav--closed nav--nojs">
 				<a  href="javascript:void(0);" class="case case--logo">
@@ -31,53 +35,129 @@
 					<p class="case__title">Лето с Lay's</p>
 				</a>
 				<a href="javascript:void(0);" class="case case--bg case--close-nav">
-					<!-- <div class="case__icon case__icon--summer-lays"></div> -->
 					<p class="case__title">свернуть меню</p>
 				</a>
 			</div>
 		</nav>
+
 		<!-- ------------ MAIN ------------- -->
+
 		<main>
-			<div class="main__wrapper">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut repellendus voluptatum consectetur quaerat totam, quo, vitae, quas doloremque officiis odio qui temporibus voluptate. Eum perspiciatis, assumenda doloremque explicabo eos exercitationem.
-							</p>
+			<div id="element" class="main__wrapper main__wrapper--page hide_page">
+
+				<!-- ------------ First Screen ------------- -->
+
+				<div class="first-screen animation--left">
+					<div class="icons-box">
+						<div class="icon-item">
+							<div class="icon-item__image icon-item__image--upload"></div>
+							<p class="icon-item__text">Загружай фото <br>с хештегом <br><span>#летосLays</span></p>
+						</div>
+						<div class="icon-item">
+							<div class="icon-item__image icon-item__image--collect"></div>
+							<p class="icon-item__text">Собирай <br>лайки</p>
+						</div>
+						<div class="icon-item">
+							<div class="icon-item__image icon-item__image--win"></div>
+							<p class="icon-item__text">Выигрывай <br>призы</p>
+						</div>
+					</div>
+					<div class="title-box">
+						<h1 class="title title__medium">ЛЕТО</h1>
+						<h1 class="title title__light">ВКУСНЕЕ</h1>
+						<h1 class="title title__black">С <span>Lay's</span></h1>
+					</div>
+				</div>
+
+				<!-- ------------ Gallery screen ------------- -->
+
+				<div class="gallery animation--right">
+					<div class="gallery__left">
+						<div class="text-box">
+							<h2 class="text-box__title">
+								Загружай <br>фото<br>с хештегом<br>
+								<span class="text-box__hash">#летосLays</span>
+							</h2>
+							<button class="button">галерея</button>
+						</div>
+					</div>
+					<div class="gallery__right">
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg1"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg2"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg3"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg4"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg5"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg6"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg7"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg8"></div>
+						</a>
+						<a href="javascript:void(0);" class="gallery__item">
+							<div class="pic pic--bg9"></div>
+						</a>
+					</div>
+				</div>
+
+				<!-- ------------ About screen ------------- -->
+
+				<div class="about animation--left">
+					<div class="about__left">
+						<div class="win-box">
+							<h2 class="win-box__title">
+								Выиграй <br>призы <br>от Lay's
+							</h2>
+							<p class="win-box__text">Этим летом бренд Lay’s задает тренд на яркое, вкусное лето и на позитивный желтый цвет.</p>
+							<button class="button">О ПРОЕКТЕ</button>
+						</div>
+						
+					</div>
+					<div class="about__right">
+						<div class="about__right-image"></div>
+					</div>
+				</div>
+
+				<!-- ------------ Summer lays screen ------------- -->
+
+				<div class="lays animation--right">
+					<div class="lays__left">
+						<div class="lays__left-image"></div>
+					</div>
+					<div class="lays__right">
+						<h2>Лето с Lay’s</h2>
+						<button class="button">ПЕРЕЙТИ</button>
+					</div>
+				</div>
 
 				<!-- ------------ Footer ------------- -->
-				<footer>
-					
+
+				<footer class="animation--left">
+					<div class="footer__left">
+						<div class="footer__logo"></div>
+						<p class="footer__copyright">© 2015 Lay's Russia. Все права защищены</p>
+					</div>
+					<div class="footer__right">
+						<a href="javascript:void(0);" class="soc-icon soc-icon--fb"></a>
+						<a href="javascript:void(0);" class="soc-icon soc-icon--vk"></a>
+						<a href="javascript:void(0);" class="soc-icon soc-icon--wd"></a>
+						<a href="javascript:void(0);" class="soc-icon soc-icon--yt"></a>
+					</div>
 				</footer>
 			</div>
-
 		</main>
 	</section>
-	
-
-
-
-	<script>
-	  var navMain = document.querySelector('.nav__container');
-	  var navToggle = document.querySelector('.mobile-button');
-	  var navToggleCl = document.querySelector('.case--close-nav');
-
-	  navMain.classList.remove('nav--nojs');
-
-	  navToggle.addEventListener('click', function() {
-	    if (navMain.classList.contains('nav--closed')) {
-	      navMain.classList.remove('nav--closed');
-	      navMain.classList.add('nav--opened');
-	    } else {
-	      navMain.classList.add('nav--closed');
-	      navMain.classList.remove('nav--opened');
-	    }
-	  });
-
-	  navToggleCl.addEventListener('click', function() {
-	    
-	      navMain.classList.add('nav--closed');
-	      navMain.classList.remove('nav--opened');
-	    
-	  });
-	</script>
 </body>
 </html>
