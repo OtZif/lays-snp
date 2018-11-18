@@ -449,7 +449,7 @@ main {
       position: absolute;
       border: 1.45rem solid transparent;
       border-left: 1.45rem solid #ef1400;
-      right: -2.9rem;
+      right: -2.8rem;
       top: 26%; }
     .about__left .win-box {
       margin: 3.82rem 0 0 2.14rem;
@@ -555,7 +555,7 @@ main {
       position: absolute;
       border: 1.45rem solid transparent;
       border-right: 1.45rem solid #fecb00;
-      left: -2.9rem;
+      left: -2.8rem;
       top: calc(50% - 1.45rem); }
     .lays__right h2 {
       font-size: 1.5rem;
