@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
 	<title>Lay's Yellow Trend</title>
+	<link rel="shortcut icon" href="favicon.ico" />
 
-	<link rel="stylesheet" href="css/style.css">
-	<script defer src="js/main.js" ></script>
+	<link rel="stylesheet" href="css/style.css" />
+	
 </head>
 <body>
 	<section class="wrapper">
@@ -22,19 +23,19 @@
 						<div class="line"></div>
 					</button>
 				</a>
-				<a href="javascript:void(0);" class="case case--bg">
-					<div class="case__icon case__icon--gallery"></div>
+				<a href="javascript:void(0);" class="case case--bg animation__left">
+					<div class="case__icon case__icon--gallery "></div>
 					<p class="case__title">Галерея</p>
 				</a>
-				<a href="javascript:void(0);" class="case case--bg">
+				<a href="javascript:void(0);" class="case case--bg animation__right">
 					<div class="case__icon case__icon--about"></div>
 					<p class="case__title">О проекте</p>
 				</a>
-				<a href="javascript:void(0);" class="case case--bg">
+				<a href="javascript:void(0);" class="case case--bg animation__left">
 					<div class="case__icon case__icon--summer-lays"></div>
 					<p class="case__title">Лето с Lay's</p>
 				</a>
-				<a href="javascript:void(0);" class="case case--bg case--close-nav">
+				<a href="javascript:void(0);" class="case case--bg case--close-nav animation__right">
 					<p class="case__title">свернуть меню</p>
 				</a>
 			</div>
@@ -47,19 +48,19 @@
 
 				<!-- ------------ First Screen ------------- -->
 
-				<div class="first-screen animation--left">
+				<div class="first-screen animation--left" style="height: 814px;">
 					<div class="icons-box">
 						<div class="icon-item">
 							<div class="icon-item__image icon-item__image--upload"></div>
-							<p class="icon-item__text">Загружай фото <br>с хештегом <br><span>#летосLays</span></p>
+							<p class="icon-item__text">Загружай фото <br />с хештегом <br /><span>#летосLays</span></p>
 						</div>
 						<div class="icon-item">
 							<div class="icon-item__image icon-item__image--collect"></div>
-							<p class="icon-item__text">Собирай <br>лайки</p>
+							<p class="icon-item__text">Собирай <br />лайки</p>
 						</div>
 						<div class="icon-item">
 							<div class="icon-item__image icon-item__image--win"></div>
-							<p class="icon-item__text">Выигрывай <br>призы</p>
+							<p class="icon-item__text">Выигрывай <br />призы</p>
 						</div>
 					</div>
 					<div class="title-box">
@@ -75,7 +76,7 @@
 					<div class="gallery__left">
 						<div class="text-box">
 							<h2 class="text-box__title">
-								Загружай <br>фото<br>с хештегом<br>
+								Загружай <br />фото<br />с хештегом<br />
 								<span class="text-box__hash">#летосLays</span>
 							</h2>
 							<button class="button">галерея</button>
@@ -118,9 +119,9 @@
 					<div class="about__left">
 						<div class="win-box">
 							<h2 class="win-box__title">
-								Выиграй <br>призы <br>от Lay's
+								Выиграй <br class="mob_del" />призы <br />от Lay's
 							</h2>
-							<p class="win-box__text">Этим летом бренд Lay’s задает тренд на яркое, вкусное лето и на позитивный желтый цвет.</p>
+							<p class="win-box__text">Этим летом бренд <br class="mob_show" /> Lay’s задает тренд <br class="mob_show" />на яркое, вкусное<br class="mob_show" /> лето и на позитивный <br class="mob_show" />желтый цвет.</p>
 							<button class="button">О ПРОЕКТЕ</button>
 						</div>
 						
@@ -147,7 +148,7 @@
 				<footer class="animation--left">
 					<div class="footer__left">
 						<div class="footer__logo"></div>
-						<p class="footer__copyright">© 2015 Lay's Russia. Все права защищены</p>
+						<p class="footer__copyright">© 2015 Lay's Russia. <span>Все права защищены</span></p>
 					</div>
 					<div class="footer__right">
 						<a href="javascript:void(0);" class="soc-icon soc-icon--fb"></a>
@@ -159,5 +160,6 @@
 			</div>
 		</main>
 	</section>
+	<script  src="js/main.js"></script>
 </body>
 </html>
