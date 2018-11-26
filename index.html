@@ -6,32 +6,33 @@
 	<title>Lay's Yellow Trend</title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css" />
+	<script defer src="js/main.js"></script>
 </head>
 <body>
 	<section class="wrapper">
 
 		<!-- ------------ NAV ------------- -->
 
-		<nav>
-			<div class="nav__container nav--closed nav--nojs">
+		<nav id="navigation" class="nav--animation-opened">
+			<div id="menu" class="nav__container nav--closed nav--nojs ">
 				<a  href="javascript:void(0);" class="case case--logo">
 					<div class="case__icon case__icon--logo-lays"></div>
 					<p class="case__title case__title--logo-hash">#летосlays</p>
 					<button class="mobile-button" type="button">
-						<div class="line"></div>
+						<span class="line"></span>
 					</button>
 				</a>
 				<a href="javascript:void(0);" class="case case--bg animation__left">
 					<div class="case__icon case__icon--gallery "></div>
-					<p class="case__title">Галерея</p>
+					<p class="case__title case__title--padding">Галерея</p>
 				</a>
 				<a href="javascript:void(0);" class="case case--bg animation__right">
 					<div class="case__icon case__icon--about"></div>
-					<p class="case__title">О проекте</p>
+					<p class="case__title case__title--padding">О проекте</p>
 				</a>
 				<a href="javascript:void(0);" class="case case--bg animation__left">
 					<div class="case__icon case__icon--summer-lays"></div>
-					<p class="case__title">Лето с Lay's</p>
+					<p class="case__title case__title--padding">Лето с Lay's</p>
 				</a>
 				<a href="javascript:void(0);" class="case case--bg case--close-nav animation__right">
 					<p class="case__title">свернуть меню</p>
@@ -46,7 +47,7 @@
 
 				<!-- ------------ First Screen ------------- -->
 
-				<div class="first-screen animation--left" style="height: 814px;">
+				<div class="first-screen animation--left">
 					<div class="icons-box">
 						<div class="icon-item">
 							<div class="icon-item__image icon-item__image--upload"></div>
@@ -146,7 +147,7 @@
 				<footer class="animation--left">
 					<div class="footer__left">
 						<div class="footer__logo"></div>
-						<p class="footer__copyright">© 2015 Lay's Russia. <span>Все права защищены</span></p>
+						<p class="footer__copyright">© 2015 Lay's Russia<span>. Все права защищены</span></p>
 					</div>
 					<div class="footer__right">
 						<a href="javascript:void(0);" class="soc-icon soc-icon--fb"></a>
@@ -158,6 +159,5 @@
 			</div>
 		</main>
 	</section>
-	<script src="js/main.js"></script>
 </body>
 </html>
